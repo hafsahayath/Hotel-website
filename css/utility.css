@@ -1,0 +1,23 @@
+.text-primary {
+    color: #a2e1db;
+}
+
+.text-secondary {
+    color: #55cbcd;
+}
+
+.heading {
+    padding: 80px 0;
+    width: 1400px;
+    margin: auto;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.lead {
+    margin: 20px;
+}
+
+.section-padding {
+    margin-top: 40px;
+}
