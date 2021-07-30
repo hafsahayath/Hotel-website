@@ -53,6 +53,7 @@ img {
     position: fixed;
     top: 0rem; 
     padding: 0 30px;
+    transition: 0.5s;
 }
 
 .navbar.top {
@@ -316,6 +317,7 @@ img {
 
 @media(max-width: 768px) {
     .navbar {
+        padding-top: 10px;
         flex-direction: column;
         height: 120px;
         padding: 20px;
@@ -323,25 +325,28 @@ img {
     }
 
     .navbar nav {
-        padding-top: 20px;
+        padding-top: 30px;
     }
 
     .hero .content {
         padding-top: 250px;
         padding-left: 50px;
+        margin-right: 8px;
     }
 
     .heading {
-        max-width: 450px;
+        max-width: 300px;
         margin: auto;
+
     }
 
     #about .container {
+        margin: 10px;
         flex-direction: column;
     }
 
     #about .aboutus p {
-        width: 450px;
+        width: 300px;
     }
 
    .card {
@@ -350,7 +355,7 @@ img {
 
     .photo-grid .row {
         flex-direction: column;
-        width: 450px;
+        width: 400px;
     }
 
     .flex-columns {
@@ -364,3 +369,8 @@ img {
     .flex-columns .column2 .btn-submit {
         margin-left: 40%;
     }
+
+    .footer {
+        margin-top: 10px;
+    }
+}
